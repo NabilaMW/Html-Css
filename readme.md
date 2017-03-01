@@ -17,7 +17,7 @@
 
 ```
 
-**.container : ** la classe container va nous servir à définir un espace donné qui contient les données dans une partie de la page. C’est une classe que l’on définit soi même.
+__.container :__ la classe container va nous servir à définir un espace donné qui contient les données dans une partie de la page. C’est une classe que l’on définit soi même.
 
 **attributs :** les attributs sont les informations notées
 
