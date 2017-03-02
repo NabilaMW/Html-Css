@@ -27,7 +27,7 @@ positionner un élément à droite ou à gauche d’un autre.
 inconvénients : sort du flux → certaines propriétés ne fonctionnent pas et les éléments ne sont plus relatif entre eux
 font-family :change la police de caractères
 
-###### **display :**
+##### **display :**
 
 * __inline__ : aligne les éléments les uns à la suite des autres.
 

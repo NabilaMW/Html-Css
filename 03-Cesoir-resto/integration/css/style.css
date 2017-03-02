@@ -1,0 +1,41 @@
+.inline-b{
+  display: inline-block;
+
+}
+body{
+}
+nav li{
+  display: inline-block;
+
+}
+header{
+  background-image:url('../img/planche.jpg');
+  background-size: cover;
+  position: relative;
+  padding-bottom: 80px;
+}
+nav{
+  position: absolute;
+  right: 25px;
+}
+#logo{
+  top: 60px;
+  margin: auto;
+  width: 200px;
+  position: relative;
+}
+#logo img{
+  top:-59px;
+  position: absolute;
+  width: 100%;
+}
+#logo div{
+  width: 0;
+	height: 0;
+	border-top: 150px solid #FF1493;
+	border-left: 150px solid transparent;
+}
+div footer{
+  background-color: #FFEFD5;
+  background-size: cover;
+}
