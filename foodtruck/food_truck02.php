@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/style02.css">
-    <title>Food truck</title>
-  </head>
-
-  <body>
-
-    <header>
+<?php
+include('inc/header.php');
+ ?>
       <h1> ALLO CO'TRUCK</h1>
       <img src="img/logo_africa.jpg" alt="logo">
 

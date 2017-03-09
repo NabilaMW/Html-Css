@@ -1,0 +1,16 @@
+body{
+  background-color: 		#F08080;
+}
+h1{
+  font-family: cursive;;
+  font-size: 25px;
+  color: blue;
+  letter-spacing: 10px;
+}
+.cyan{
+  color: cyan;
+  letter-spacing: 1px;
+}
+#letter{
+  letter-spacing: 10px;
+}
