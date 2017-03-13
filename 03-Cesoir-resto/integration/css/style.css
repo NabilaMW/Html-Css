@@ -1,23 +1,22 @@
 .inline-b{
   display: inline-block;
-
-}
-body{
 }
 nav li{
   display: inline-block;
-
-}
-header{
-  background-image:url('../img/planche.jpg');
-  background-size: cover;
-  position: relative;
-  padding-bottom: 80px;
+  margin-left:20px;
 }
 nav{
   position: absolute;
   right: 25px;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
 }
+header{
+  background-image:url('../img/planche2.jpg');
+  position: relative;
+  padding-bottom: 80px;
+}
+
 #logo{
   top: 60px;
   margin: auto;
@@ -35,7 +34,59 @@ nav{
 	border-top: 150px solid #FF1493;
 	border-left: 150px solid transparent;
 }
-div footer{
-  background-color: #FFEFD5;
-  background-size: cover;
+
+
+.droite{
+  vertical-align: middle;
+  width: 65%;
+  display: inline-block;
 }
+.gauche{
+  vertical-align: middle;
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+.droite img, .gauche img{
+  width: 100%;
+}
+
+
+h2{
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+article p{
+  font-size: 13px;
+  text-align: center;
+  margin:0px 165px;
+  display: inline-block;
+}
+
+#freshfare img{
+  display: inline-block;
+  padding-bottom: 4px;
+}
+#freshfare article{
+  float: right;
+  width: 64%;
+}
+#ourstory img{
+  transform: scaleX(-1);
+  float: right;
+  padding-bottom: 4px;
+}
+
+.footer img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-bottom: 60px;
+}
+.cover img{
+  width: 100%;
+  }
+  p :after
