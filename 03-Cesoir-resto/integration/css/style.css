@@ -1,22 +1,63 @@
 .inline-b{
   display: inline-block;
 }
-nav li{
-  display: inline-block;
-  margin-left:20px;
+h1{
+  font-family: 'Caveat Brush', cursive;
 }
+h1 span{
+  font-size: 22px;
+  display: inline;
+  vertical-align: top;
+  position: relative;
+}
+h1 span:after{
+  top: 10px;
+  content: "-";
+  position: absolute;
+  left: 0;
+  /*color: #ff0080;*/
+}
+.rectangle{
+  top: 66px;
+  position: absolute;
+  margin: 0;
+  display: block;
+  border: 4px solid #E53F6F;
+  padding: 0 17px;
+  width: 0px;
+  left: 20px;
+  /*width: -3px;*/
+}
+/*header hr{
+  margin-left: 20px;
+  margin-top: 0px;
+}*/
 nav{
   position: absolute;
   right: 25px;
+}
+nav li{
+  display: inline-block;
+  margin-left:10px;
+}
+nav a{
   font-family: 'Bree Serif', serif;
-  font-size: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  /*text-transform: uppercase;*/
+  margin:10px;
 }
 header{
   background-image:url('../img/planche2.jpg');
   position: relative;
   padding-bottom: 80px;
 }
-
+.logoCeSoir{
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+}
 #logo{
   top: 60px;
   margin: auto;
@@ -40,19 +81,39 @@ header{
   vertical-align: middle;
   width: 65%;
   display: inline-block;
+
+}
+section .rectangle{
+  position: inherit;
+  margin:auto;
+  left: 0;
+  bottom: 0;
 }
 .gauche{
+  position: relative;
   vertical-align: middle;
   width: 35%;
   height: 100%;
   display: inline-block;
   overflow: hidden;
 }
+#graine {
+  width: 100px;
+  height: auto;
+  margin-left: 280px;
+}
 .droite img, .gauche img{
   width: 100%;
 }
-
-
+.textrose{
+  font-family: sans-serif;
+  color: #FF1493;
+  font-size: 12px;
+  margin-left: 280px;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
 h2{
   font-size: 30px;
   font-family: cursive;
@@ -69,15 +130,18 @@ article p{
 #freshfare img{
   display: inline-block;
   padding-bottom: 4px;
+  height: auto;
 }
 #freshfare article{
-  float: right;
+  /*float: right;*/
   width: 64%;
+  height: auto;
 }
 #ourstory img{
   transform: scaleX(-1);
   float: right;
   padding-bottom: 4px;
+  height: auto;
 }
 
 .footer img{
@@ -89,4 +153,51 @@ article p{
 .cover img{
   width: 100%;
   }
-  p :after
+footer{
+  position: relative;
+  padding: 150px 20px;
+  background-image: url('../img/floral-hexagon-background_1053-181.jpg');
+}
+footer > div{
+  width: 50%;
+  display: inline-block;
+}
+footer p{
+/*font-family: 'Gidugu', sans-serif;*/
+}
+footer .fa{
+  color:#FF1493;
+  margin: 5px;
+  padding: 0 6px;
+  border-radius: 15px;
+  transition: 1s;
+  float: right;
+}
+footer .fa:hover{
+  color: pink;
+  animation-name: clignote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes clignote{
+  0%{
+    color: black;
+  }
+  50%{
+    color:#800080
+  }
+  100%{
+    color:pink;
+  }
+}
+
+#reseaux li{
+  display: inline-block;
+  text-align: right;
+}
+#reseaux ul{
+  float: right;
+}
+/*.coordo p{
+  margin-right: 150px;*/
+}

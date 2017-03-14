@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Restaurant</title>
+    <link rel="stylesheet" href="element\font-awesome-4.7.0\css\font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
-      <h1 class="inline-b"> Ce soir</h1>
+      <div class="logoCeSoir">
+        <h1 class="inline-b">C<span>E</span>soir</h1>
+        <hr class="rectangle">
+      </div>
       <nav class="inline-b">
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
         <ul>
-          <li class="inline-b"><a href="#Our_story">Our_story</a></li>
-          <li class="inline-b"><a href="#Fresh_Fare">Fresh_Fare</a></li>
+          <li class="inline-b"><a href="#Our_story">Our Story</a></li>
+          <li class="inline-b"><a href="#Fresh_Fare">Fresh Fare</a></li>
           <li class="inline-b"><a href="#local distillation">local distillation</a></li>
         </ul>
       </nav>
@@ -25,8 +29,9 @@
       <section id='Our_story'>
         <article class="gauche">
           <h2>Our_story</h2>
+
           <hr width='25px'; color=' #ff0080'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="textrose">Lorem ipsum </p>
         </article><!--
         --><div class="droite">
           <img src="img/asperge.jpg" alt="">
@@ -38,15 +43,17 @@
         </div><!--
         --><article class="gauche">
           <h2>Fresh Fare</h2>
+          <img id='graine'src="img/graines.jpg" alt="">
           <hr width='25px'; color=' #ff0080'>>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="textrose">Lorem ipsum </p>
         </article>
       </section><!--
       --><section id="local distillation">
         <article class="gauche">
           <h2>Local distillation</h2>
+          <img id='graine'src="img/graines2.jpg" alt="">
           <hr width='25px'; color=' #ff0080'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p class="textrose">Lorem ipsum </p>
         </article><!--
         --><div class="droite">
           <img src="img/moule.jpg" alt="">
@@ -58,15 +65,29 @@
         </div>
       </section>
       <footer>
-        <h1 class="inline-b">Ce soir</h1>
-        <p>142 avenue Jean jaures</p>
-        <p>93500 Pantin</p>
-        <p>01.06.01.06.01</p>
-        <div class="footer">
-          <img src="img/fb.jpg" alt="">
-          <img src="img/Google+.png" alt="">
-          <img src="img/twitterr.png" alt="">
+        <div class="">
+          <link href="https://fonts.googleapis.com/css?family=Gidugu" rel="stylesheet">
+          <div class="logoCeSoir">
+            <h1 class="inline-b">C<span>E</span>soir</h1>
+            <hr class="rectangle">
+          </div>
+          <div class=" coordo">
+            <p>142 avenue Jean jaures</br>
+              93500 Pantin</p>
+            <p>01.06.01.06.01</p>
+
+          </div>
+
+        </div><!--
+        --><div id="reseaux">
+          <ul>
+            <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+            <li><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+            <li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+            <li><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></li>
+          </ul>
         </div>
+
       </footer>
 
   </body>
