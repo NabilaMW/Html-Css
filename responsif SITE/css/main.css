@@ -1,0 +1,67 @@
+/*maquette responsive Nabila MAIDI*/
+
+/*bouquin de ben frain editeur pearson*/
+/*style pour ecran d'ordinateur*/
+body{
+  /*background-color: yellow;*/
+}
+#wrapper{
+  /*background-color: grey;*/
+  /*border: 3px solid black;*/
+  width:960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header{
+  /*background-color: #779307;*/
+  width:940px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+nav{
+  background-color: cyan;
+  width:960px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 26px;
+  margin-left: -10px;
+}
+nav li {
+  display:inline-block;
+  /*background-color: white;*/
+}
+aside{
+  background-color: #fe9c00;
+  margin-top: 58px;
+  border-right: 2px solid #e8e8e8;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  width:220px;
+  float: left;
+}
+#content{
+  background-color: #dedede;
+  width:698px;
+  float: right;
+  margin-right: 10px;
+
+}
+footer{
+  margin-top:20px; 
+  background-color: #663300;
+  width:940px;
+  clear: both;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/*taille pour une tablette*/
+@media screen and (max-width:760px) {
+#wrapper{
+  width:760px;
+}
+header nav footer{
+  width:740px;
+}
+}
