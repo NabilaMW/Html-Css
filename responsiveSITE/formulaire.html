@@ -28,6 +28,35 @@
 
       <div id="content">
         <h2>Formulaire</h2>
+        <form class="" action="toto.php" method="post">
+          <fieldset>
+            <legend>A propos de css</legend>
+            <p>Savez-vous ce que veut dire css?</p>
+            <input type="radio" name="css" value="oui" id="oui" checked="cheked">
+            <label for="oui">Oui</label>
+            <input type="radio" name="css" value="non">
+            <label for="non">Non</label>
+
+            <label for="utilise">Si oui les utilisez-vous?</label>
+            <select class="" name="utilise">
+              <option value="toujours"> toujours</option>
+              <option value="parfois">parfois</option>
+              <option value="jamais">jamais</option>
+
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="email">email</label>
+            <input type="email" name="email" value="" placeholder="email@email.com" maxlength="50" size="30">
+            <textarea name="commentaire" rows="8" cols="40" id="commentaire"></textarea>
+          </fieldset>
+          <p>
+            <input type="submit" name="" value="envoyer">
+            <input type="reset" name="" value="annuler">
+          </p>
+
+        </form>
 
       </div> <!-- fermeture du contenu principal ou content-->
       <!-- bartre latérale -->
@@ -35,35 +64,7 @@
         <div>
           <h2>Titre2</h2>
 
-<form class="" action="toto.php" method="post">
-  <fieldset>
-    <legend>A propos de css</legend>
-    <p>Savez-vous ce que veut dire css?</p>
-    <input type="radio" name="css" value="oui" id="oui" checked="cheked">
-    <label for="oui">Oui</label>
-    <input type="radio" name="css" value="non">
-    <label for="non">Non</label>
 
-    <label for="utilise">Si oui les utilisez-vous?</label>
-    <select class="" name="utilise">
-      <option value="toujours"> toujours</option>
-      <option value="parfois">parfois</option>
-      <option value="jamais">jamais</option>
-
-    </select>
-  </fieldset>
-  <fieldset>
-    <legend>Vos coordonnées</legend>
-    <label for="email">email</label>
-    <input type="email" name="email" value="" placeholder="email@email.com" maxlength="50" size="30">
-    <textarea name="commentaire" rows="8" cols="40" id="commentaire"></textarea>
-  </fieldset>
-  <p>
-    <input type="submit" name="" value="envoyer">
-    <input type="reset" name="" value="annuler">
-  </p>
-
-</form>
         </div>
         <div>
           <h2>Titre2</h2>
