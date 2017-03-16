@@ -1,5 +1,5 @@
 /*maquette responsive Nabila MAIDI*/
-
+/*reset eric mayer*/
 /*bouquin de ben frain editeur pearson*/
 /*style pour ecran d'ordinateur*/
 body{
@@ -31,7 +31,7 @@ nav li {
   display:inline-block;
   /*background-color: white;*/
 }
-aside{
+aside {
   background-color: #fe9c00;
   margin-top: 58px;
   border-right: 2px solid #e8e8e8;
@@ -41,15 +41,15 @@ aside{
   width:220px;
   float: left;
 }
-#content{
+#content {
   background-color: #dedede;
   width:698px;
   float: right;
   margin-right: 10px;
 
 }
-footer{
-  margin-top:20px; 
+footer {
+  margin-top:20px;
   background-color: #663300;
   width:940px;
   clear: both;
@@ -58,10 +58,49 @@ footer{
 }
 /*taille pour une tablette*/
 @media screen and (max-width:760px) {
-#wrapper{
-  width:760px;
+#wrapper, header, footer, nav{
+  width: 760px;
+  margin: 0px;
 }
-header nav footer{
+nav {
+  text-align: center;
+  background-image: none;
+  border-top-color:#bfbfbf;
+  border-top-style: double;
+  border-top-width: 4px;
+}
+nav ul li a {
+  background-color: #dedede;
+  line-height: 60px;
+  font-size: 40px;
+}
+header, nav, footer{
   width:740px;
+}
+#content, aside {
+  padding-right: 10px;
+  padding-left: 10px;
+  width:728px;
+  margin-top: 20px;
+}
+.oscarMain {
+  margin-right: 30px;
+  margin-top: 0px;
+  width:150px;
+  height: 394px;
+}
+aside {
+  border-right: none;
+  margin-top: 2px solid #e8e8e8;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.sideblock {
+  width:46%;
+  float: left;
+}
+.overhyped {
+  margin-top: 0px;
+  margin-left: 50px;
 }
 }
