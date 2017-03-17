@@ -1,0 +1,123 @@
+/*feuille de style Nabila MAIDI*/
+/*style de la maquette "Le Bilan/ evaluation"*/
+
+/*body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+
+}*/
+.logo .Le-Bilan {
+
+}
+.Le-Bilan h1{
+  border-top: solid 3px #757575;
+  border-bottom: solid 3px #757575;
+
+  width: 400px;
+
+}
+h1{
+
+text-align: center;
+font-size: 40px;
+border-top: solid 3px #757575;
+border-bottom: solid 3px #757575;
+margin-right: auto;
+margin-left: auto;
+width: 400px;
+
+}
+h4 {
+  text-align: center;
+  font-size: 15px;
+  color: #CD7F32;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-family: serif;
+}
+
+li a{
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  /*text-transform: uppercase;*/
+  font-family: serif;
+  font-weight: bold;
+
+}
+nav {
+  width: 19%;
+  margin: auto;
+  display: block;
+  margin-bottom: 100px;
+}
+li{
+    /*float: right;*/
+    display: inline;
+    margin-right: 5px;
+    margin-bottom: 100px;
+  }
+.plat article {
+    float: right;
+    font-style: italic;
+    font-size: 18px;
+    margin-right: 60px;
+    position: relative;
+    /*right: 200px;*/
+    line-height: 0px;
+  }
+
+  }
+.plat{
+    display: inline-block;
+    text-align: right;
+    float: right;
+    position: relative;
+
+
+  }
+
+h3 {
+    /*border-bottom: solid 2px #BDBDBD;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-style: italic;
+    text-transform:  uppercase;
+  }
+
+
+h2 {
+
+  border-bottom: 2px solid #BDBDBD;
+  width: 670px;
+  margin-left: 30px;
+}
+p {
+  margin-right: 70px;
+  margin-left: 30px;
+  text-align: justify;
+  font-style: italic;
+
+}
+.page {
+  width: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.page img {
+  width: 100%;
+}
+.plat p {
+text-transform:  uppercase;
+}
+.adresse {
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
