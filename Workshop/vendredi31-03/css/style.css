@@ -1,0 +1,28 @@
+/*font*/
+h1, h2 {
+  text-transform: uppercase;
+  font-family: 'Eczar', serif;
+}
+
+/*le corps de ma page*/
+ body{
+   background-color: olive;
+ }
+/*la rotation du header*/
+
+
+
+
+.rotate {
+  overflow: hidden;
+  transform: rotate(30deg);
+
+}
+.rotate > div{
+
+  transform: rotate(-30deg);
+
+}
+.rotate > section{
+  transform: rotate(30deg);
+}
